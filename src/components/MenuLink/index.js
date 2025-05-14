@@ -6,12 +6,13 @@ export default function MenuLink({ children, to }) {
 
     return (
         <NavLink
-            to={to}
             className={({ isActive }) => `
                 ${styles.link} 
                 ${isActive ? styles.linkHighlighted : ''}
             `}
-            >
+            to={to}
+            end
+        >
                 {children}
         </NavLink>
     )
