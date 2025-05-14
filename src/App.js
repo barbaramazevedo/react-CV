@@ -1,12 +1,20 @@
-import { BrowserRouter } from "react-router-dom";
-import Start from "../src/pages/Start"
-import AboutMe from "../src/pages/AboutMe"
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Start from './pages/Start';
+import AboutMe from './pages/AboutMe';
+import Menu from "./components/Menu";
+
 
 function App() {
-  return page;
+  return (
   <BrowserRouter>
+    <Menu />
+    <Routes>
+      <Route path="/" element={<Start />} />
+      <Route path="/aboutme" element={<AboutMe />} />
+      <Route path="*" element={<div>Página não encontrada</div>} />
+    </Routes>
   </BrowserRouter>
-    
+  )
 }
 
 export default App;
