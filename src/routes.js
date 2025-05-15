@@ -4,7 +4,7 @@ import AboutMe from './pages/AboutMe';
 import Menu from "./components/Menu";
 import Footer from "components/Footer";
 import DefaultPage from "components/DefaultPage";
-import Post from "components/Post";
+import Post from "pages/Post";
 
 
 function AppRoutes() {
