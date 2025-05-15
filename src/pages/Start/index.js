@@ -1,5 +1,12 @@
+import Banner from "components/Banner";
+
 export default function Start() {
     return (
-        <h1>Cv Bárbara Azevedo</h1>
+        <main>
+            <Banner/>
+
+            <h1>Cv Bárbara Azevedo</h1>
+        </main>
+
     )
 }
