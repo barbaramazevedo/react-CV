@@ -6,14 +6,14 @@ export default function Banner() {
     return (
         <div className={styles.banner}>
             <div className={styles.presentation}>
-                <h1 className={styles.title}>Olá, </h1>
-                <p className={styles.paragraph}>sou uma desenvolvedora em formação, apaixonada por tecnologia, criatividade e por construir soluções que fazem a diferença. Essa é uma aplicação web desenvolvida com React que tem como objetivo me apresentar, compartilhar um pouco da minha trajetória e exibir meu portfólio de projetos.</p>
+                <h1 className={styles.title}>Hi, </h1>
+                <p className={styles.paragraph}>I am a brazilian developer in training, passionate about technology, creativity and building solutions that make a difference. This is a web application developed with React that aims to introduce myself, share a little of my trajectory and showcase my project portfolio.</p>
             </div>
             <div className={styles.images}>
                 <img className={styles.colorfulcircle} 
                     src={colorfulcircle}
                     aria-hidden={true}
-                    alt="Imagem de um círculo colorido"
+                    alt="Image colorful circle"
                 />   
                 <img 
                     className={styles.myphoto} 
